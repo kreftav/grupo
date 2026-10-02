@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>VSK Group | Vender. Mostrar. Construir.</title>
+<meta name="description" content="VSK Group: VSK Store (perfumes e eletrônicos), VSK Agência (vídeo, drone e tours 360°) e VSK Dev (sites e ferramentas para empresas).">
+<link rel="canonical" href="https://www.vskgroup.com.br/">
+<meta name="theme-color" content="#080b17">
+<meta property="og:type" content="website"><meta property="og:locale" content="pt_BR"><meta property="og:site_name" content="VSK Group">
+<meta property="og:title" content="VSK Group | Vender. Mostrar. Construir."><meta property="og:url" content="https://www.vskgroup.com.br/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230d1224'/%3E%3Cpath d='M17 16l15 24 15-24' fill='none' stroke='%23f4f0e8' stroke-width='6.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='21' cy='52' r='3.2' fill='%23f2a33a'/%3E%3Ccircle cx='32' cy='52' r='3.2' fill='%2314b8a6'/%3E%3Ccircle cx='43' cy='52' r='3.2' fill='%238a5cf5'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"VSK Group","url":"https://www.vskgroup.com.br/","subOrganization":[{"@type":"OnlineStore","name":"VSK Store","url":"https://loja.vskgroup.com.br"},{"@type":"Organization","name":"VSK Agência","url":"https://agencia.vskgroup.com.br"},{"@type":"Organization","name":"VSK Dev","url":"https://dev.vskgroup.com.br"}]}</script>
+<style>
+@property --ac{syntax:'<color>';inherits:true;initial-value:#f2a33a}
+:root{--bg:#f4f0e8;--fg:#0d1224;--mut:#5d6580;--line:rgba(13,18,36,.13);--card:#fff;--mk-base:#0d1224;--mk-v:#f4f0e8;--ease:cubic-bezier(.32,.72,0,1);color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);transition:--ac .8s var(--ease)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#080b17;--fg:#f4f0e8;--mut:#9aa1bd;--line:rgba(244,240,232,.13);--card:#10152b;--mk-base:#f4f0e8;--mk-v:#0d1224;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#080b17;--fg:#f4f0e8;--mut:#9aa1bd;--line:rgba(244,240,232,.13);--card:#10152b;--mk-base:#f4f0e8;--mk-v:#0d1224;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 "DM Sans",system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3,p{margin:0}a{color:inherit;text-decoration:none}
+.glow{position:fixed;left:0;top:0;width:80vmax;height:80vmax;margin:-40vmax 0 0 -40vmax;pointer-events:none;z-index:0;background:radial-gradient(closest-side,color-mix(in srgb,var(--ac) 30%,transparent),transparent);will-change:transform}
+.grain{position:fixed;inset:0;pointer-events:none;z-index:6;opacity:.07;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+main,footer{position:relative;z-index:1}
+.mk-base{fill:var(--mk-base)}.mk-v{stroke:var(--mk-v)}
+.nav{position:fixed;z-index:5;top:calc(env(safe-area-inset-top,0px) + 14px);left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:6px;padding:6px 6px 6px 12px;border-radius:999px;border:1px solid var(--line);background:color-mix(in srgb,var(--bg) 62%,transparent);backdrop-filter:blur(18px) saturate(160%);-webkit-backdrop-filter:blur(18px) saturate(160%);white-space:nowrap}
+.nav .lk{display:flex;align-items:center;gap:9px;font:800 15px/1 "Bricolage Grotesque",sans-serif;letter-spacing:-.02em;margin-right:8px}
+.nav .lk svg{width:28px;height:28px}
+.nav a.t{font-size:14px;color:var(--mut);padding:8px 12px;border-radius:999px;transition:color .5s var(--ease)}.nav a.t:hover{color:var(--fg)}
+.btn{display:inline-flex;align-items:center;gap:14px;padding:7px 7px 7px 22px;border-radius:999px;background:var(--fg);color:var(--bg);font-weight:700;font-size:15px;transition:transform .7s var(--ease)}
+.btn .ar{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:color-mix(in srgb,var(--bg) 18%,transparent);font-style:normal;transition:transform .7s var(--ease)}
+.btn:hover .ar{transform:translate(3px,-2px) scale(1.06)}.btn:active{transform:scale(.97)}
+.btn.sm{padding:4px 4px 4px 16px;font-size:13px;gap:10px}.btn.sm .ar{width:28px;height:28px}
+:focus-visible{outline:3px solid var(--ac);outline-offset:3px}
+.hero{position:relative;min-height:100dvh;display:flex;flex-direction:column;justify-content:center;padding:120px 24px 72px;max-width:1240px;margin:0 auto}
+.bigv{position:absolute;right:-4vw;top:50%;width:min(78vw,720px);margin-top:calc(min(78vw,720px)/-2);opacity:.9;z-index:-1;will-change:transform}
+.bigv .vp{stroke-dasharray:60;stroke-dashoffset:60;animation:draw 1.6s .2s var(--ease) forwards}
+.bigv circle{opacity:0;animation:drop 1s var(--ease) forwards}
+.bigv circle:nth-of-type(1){animation-delay:1.3s}.bigv circle:nth-of-type(2){animation-delay:1.5s}.bigv circle:nth-of-type(3){animation-delay:1.7s}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes drop{from{opacity:0;transform:translateY(-14px)}to{opacity:1;transform:none}}
+.eye{display:inline-flex;align-items:center;gap:10px;font:700 10px/1 "JetBrains Mono",monospace;letter-spacing:.22em;text-transform:uppercase;color:var(--mut);padding:8px 14px;border:1px solid var(--line);border-radius:999px;width:max-content}
+.eye i{width:6px;height:6px;border-radius:50%;background:var(--ac)}
+h1{font:800 clamp(3.2rem,12.4vw,10.5rem)/.9 "Bricolage Grotesque",sans-serif;letter-spacing:-.05em;margin:28px 0 30px}
+h1 span{display:block;width:max-content;max-width:100%;cursor:default}
+h1 i{font-style:normal;color:var(--c)}
+.sub{font-size:clamp(1.05rem,2.2vw,1.3rem);color:var(--mut);max-width:34ch;margin-bottom:36px}
+.acts{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.ghost{padding:14px 22px;border-radius:999px;border:1px solid var(--line);font-weight:700;font-size:15px;transition:border-color .6s var(--ease)}.ghost:hover{border-color:var(--ac)}
+section.sec{max-width:1240px;margin:0 auto;padding:110px 24px 40px}
+h2{font:800 clamp(2.2rem,6vw,4.2rem)/1 "Bricolage Grotesque",sans-serif;letter-spacing:-.04em;margin:22px 0 48px;max-width:16ch}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.shell{padding:7px;border-radius:2.2rem;border:1px solid var(--line);background:color-mix(in srgb,var(--fg) 4%,transparent)}
+.card{--mx:50%;--my:0%;position:relative;overflow:hidden;height:100%;min-height:460px;display:flex;flex-direction:column;gap:18px;padding:28px 26px 26px;border-radius:calc(2.2rem - 7px);background:var(--card);box-shadow:inset 0 1px 0 color-mix(in srgb,var(--fg) 10%,transparent);transition:transform .9s var(--ease)}
+.card:hover{transform:translateY(-8px)}
+.card::before{content:"";position:absolute;inset:0;background:radial-gradient(280px circle at var(--mx) var(--my),color-mix(in srgb,var(--c) 34%,transparent),transparent 70%);opacity:.9;pointer-events:none}
+.card>*{position:relative}
+.top{display:flex;align-items:center;justify-content:space-between}
+.top svg{width:58px;height:58px}
+.no{font:700 11px/1 "JetBrains Mono",monospace;letter-spacing:.18em;color:var(--mut)}
+.lock b{display:block;font:800 30px/1 "Bricolage Grotesque",sans-serif;letter-spacing:-.04em}
+.lock small{display:block;font:700 10px/1 "DM Sans",sans-serif;letter-spacing:.3em;margin-top:6px}
+.dev .lock b,.dev .lock small,.mono{font-family:"JetBrains Mono",monospace}.dev .lock b{letter-spacing:-.07em}
+h3{font:800 clamp(1.6rem,2.6vw,2.1rem)/1.05 "Bricolage Grotesque",sans-serif;letter-spacing:-.03em;margin-top:auto}
+.card p{color:var(--mut);font-size:15px}
+.det{font:500 12px/1.5 "JetBrains Mono",monospace;color:var(--fg);padding:11px 14px;border-radius:14px;background:color-mix(in srgb,var(--c) 14%,transparent);border:1px solid color-mix(in srgb,var(--c) 40%,transparent)}
+.rec{display:inline-block;width:8px;height:8px;border-radius:50%;background:#ef4444;margin-right:8px;animation:bl 1.2s steps(2) infinite}
+.cur{animation:bl 1s steps(2) infinite}@keyframes bl{50%{opacity:0}}
+.soon{align-self:flex-start;font-size:13px;font-weight:700;color:var(--mut);border:1px dashed var(--line);border-radius:999px;padding:11px 18px}
+.final{max-width:1240px;margin:0 auto;padding:130px 24px 60px;text-align:center;display:flex;flex-direction:column;align-items:center}
+.final h2{max-width:none;white-space:nowrap;font-size:clamp(1.8rem,7.4vw,4.2rem);margin:26px 0 38px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.roll{--wc:#f2a33a;display:inline-block;position:relative;height:1.08em;overflow:hidden;vertical-align:bottom;text-align:left;border-bottom:.07em solid var(--wc);transition:width .9s var(--ease),border-color .9s var(--ease)}
+.roll .col{display:block;transition:transform .9s var(--ease)}
+.roll .col span{display:block;height:1.08em;line-height:1.08}
+.final .dots{display:flex;gap:12px}.final .dots i{width:14px;height:14px;border-radius:50%;animation:fl 3s var(--ease) infinite}
+.final .dots i:nth-child(2){animation-delay:.3s}.final .dots i:nth-child(3){animation-delay:.6s}
+@keyframes fl{50%{transform:translateY(-12px)}}
+footer{max-width:1240px;margin:0 auto;padding:40px 24px;display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between;color:var(--mut);font-size:14px;border-top:1px solid var(--line)}
+footer nav{display:flex;gap:22px}footer a:hover{color:var(--fg)}
+.js .rv{opacity:0;transform:translateY(48px);filter:blur(10px);transition:opacity 1s var(--ease),transform 1s var(--ease),filter 1s var(--ease);transition-delay:var(--d,0s)}
+.js .rv.in{opacity:1;transform:none;filter:none}
+@media(max-width:900px){.cards{grid-template-columns:1fr}.card{min-height:380px}.nav a.t{display:none}.bigv{width:110vw;right:-30vw;opacity:.5;margin-top:-55vw}.hero{padding-top:110px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.js .rv{opacity:1;transform:none;filter:none}.bigv .vp{stroke-dashoffset:0}.bigv circle{opacity:1}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="glow" id="glow" aria-hidden="true"></div><div class="grain" aria-hidden="true"></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><path id="v" class="mk-v" d="M17 16l15 24 15-24" fill="none" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+<linearGradient id="vg" x1="0" x2="1"><stop offset="0" stop-color="#f2a33a"/><stop offset=".5" stop-color="#14b8a6"/><stop offset="1" stop-color="#8a5cf5"/></linearGradient></defs>
+<symbol id="g" viewBox="0 0 64 64"><rect class="mk-base" width="64" height="64" rx="16"/><use href="#v"/><circle cx="21" cy="52" r="3.2" fill="#f2a33a"/><circle cx="32" cy="52" r="3.2" fill="#14b8a6"/><circle cx="43" cy="52" r="3.2" fill="#8a5cf5"/></symbol>
+<symbol id="s" viewBox="0 0 64 64"><rect class="mk-base" width="64" height="64" rx="16"/><use href="#v"/><circle cx="32" cy="52" r="3.6" fill="#f2a33a"/></symbol>
+<symbol id="a" viewBox="0 0 64 64"><rect class="mk-base" width="64" height="64" rx="16"/><use href="#v"/><circle cx="32" cy="52" r="3.6" fill="#14b8a6"/></symbol>
+<symbol id="d" viewBox="0 0 64 64"><rect class="mk-base" width="64" height="64" rx="16"/><use href="#v"/><circle cx="32" cy="52" r="3.6" fill="#8a5cf5"/></symbol></svg>
+
+<nav class="nav" aria-label="Principal">
+  <a class="lk" href="#topo"><svg aria-hidden="true"><use href="#g"/></svg>VSK GROUP</a>
+  <a class="t" href="#setores">Setores</a>
+  <a class="btn sm" href="#contato"><span>Contato</span><i class="ar">↗</i></a>
+</nav>
+
+<main id="topo">
+<section class="hero">
+  <svg class="bigv" id="bigv" viewBox="8 8 48 52" aria-hidden="true"><path class="vp" d="M17 16l15 24 15-24" fill="none" stroke="url(#vg)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="21" cy="52" r="2.6" fill="#f2a33a"/><circle cx="32" cy="52" r="2.6" fill="#14b8a6"/><circle cx="43" cy="52" r="2.6" fill="#8a5cf5"/></svg>
+  <span class="eye rv"><i></i>VSK GROUP</span>
+  <h1 id="words">
+    <span class="rv" style="--c:#f2a33a;--d:.1s" data-c="#f2a33a">Vender<i>.</i></span>
+    <span class="rv" style="--c:#14b8a6;--d:.22s" data-c="#14b8a6">Mostrar<i>.</i></span>
+    <span class="rv" style="--c:#8a5cf5;--d:.34s" data-c="#8a5cf5">Construir<i>.</i></span>
+  </h1>
+  <p class="sub rv" style="--d:.45s">Loja, vídeo e software. Três frentes, um só grupo.</p>
+  <div class="acts rv" style="--d:.55s">
+    <a class="btn" data-mag href="#setores"><span>Entrar por um setor</span><i class="ar">↓</i></a>
+    <a class="ghost" href="#contato">Falar com a gente</a>
+  </div>
+</section>
+
+<section class="sec" id="setores" aria-labelledby="t1">
+  <span class="eye rv"><i></i>Setores</span>
+  <h2 id="t1" class="rv">Escolha por onde entrar.</h2>
+  <div class="cards" id="cards">
+    <div class="shell rv" style="--d:.05s"><article class="card" style="--c:#f2a33a" data-c="#f2a33a">
+      <div class="top"><svg aria-hidden="true"><use href="#s"/></svg><span class="no">01</span></div>
+      <div class="lock"><b>VSK</b><small>STORE</small></div>
+      <h3>Perfumes e eletrônicos.</h3>
+      <p>Loja virtual com pedido direto pelo WhatsApp.</p>
+      <div class="det">3 itens: 10% off · 5 itens: 18% off</div>
+      <a class="btn sm" href="https://loja.vskgroup.com.br" style="align-self:flex-start"><span>Visitar a loja</span><i class="ar">↗</i></a>
+    </article></div>
+    <div class="shell rv" style="--d:.17s"><article class="card" style="--c:#14b8a6" data-c="#14b8a6">
+      <div class="top"><svg aria-hidden="true"><use href="#a"/></svg><span class="no">02</span></div>
+      <div class="lock"><b>VSK</b><small>AGÊNCIA</small></div>
+      <h3>Vídeo, drone e tour 360°.</h3>
+      <p>Captação e edição que mostram o seu negócio por inteiro. Antiga Giro Mídia.</p>
+      <div class="det mono"><span class="rec"></span><span id="rec">REC 00:00:00</span></div>
+      <a class="btn sm" href="https://agencia.vskgroup.com.br" style="align-self:flex-start"><span>Conhecer a agência</span><i class="ar">↗</i></a>
+    </article></div>
+    <div class="shell rv" style="--d:.29s"><article class="card dev" style="--c:#8a5cf5" data-c="#8a5cf5">
+      <div class="top"><svg aria-hidden="true"><use href="#d"/></svg><span class="no">03</span></div>
+      <div class="lock"><b>VSK</b><small>DEV</small></div>
+      <h3>Sites e ferramentas para empresas.</h3>
+      <p>Software feito sob o problema de cada negócio.</p>
+      <div class="det">&gt; vsk dev --init<span class="cur">_</span></div>
+      <a class="btn sm" href="https://dev.vskgroup.com.br" style="align-self:flex-start"><span>Conhecer a Dev</span><i class="ar">↗</i></a>
+    </article></div>
+  </div>
+</section>
+
+<section class="final" id="contato" aria-labelledby="t2">
+  <div class="dots rv" aria-hidden="true"><i style="background:#f2a33a"></i><i style="background:#14b8a6"></i><i style="background:#8a5cf5"></i></div>
+  <h2 id="t2" class="rv" style="--d:.1s"><span class="sr">Vamos vender, gravar, construir, presentear, voar, programar?</span><span aria-hidden="true">Vamos <span class="roll" id="roll"><span class="col" id="col"><span data-c="#f2a33a">vender</span><span data-c="#14b8a6">gravar</span><span data-c="#8a5cf5">construir</span><span data-c="#f2a33a">presentear</span><span data-c="#14b8a6">voar</span><span data-c="#8a5cf5">programar</span></span></span>?</span></h2>
+  <a class="btn rv" data-mag style="--d:.2s" href="https://wa.me/5546999711954?text=Ol%C3%A1%2C%20vim%20pelo%20site%20do%20VSK%20Group."><span>Chamar no WhatsApp</span><i class="ar">↗</i></a>
+</section>
+</main>
+
+<footer>
+  <span>© 2026 VSK Group</span>
+  <nav aria-label="Setores"><a href="https://loja.vskgroup.com.br">Store</a><a href="https://agencia.vskgroup.com.br">Agência</a><a href="https://dev.vskgroup.com.br">Dev</a></nav>
+</footer>
+
+<script>
+(function(){
+var R=document.documentElement,reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+R.classList.add('js');
+var ac=function(c){R.style.setProperty('--ac',c)},base='#f2a33a';
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.15});
+document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+var g=document.getElementById('glow'),v=document.getElementById('bigv'),px=innerWidth/2,py=innerHeight/3,tx=px,ty=py;
+addEventListener('pointermove',function(e){tx=e.clientX;ty=e.clientY},{passive:true});
+if(!reduce)(function f(){px+=(tx-px)*.07;py+=(ty-py)*.07;g.style.transform='translate3d('+px+'px,'+py+'px,0)';v.style.transform='translate3d('+(.5-px/innerWidth)*40+'px,'+(.5-py/innerHeight)*40+'px,0)';requestAnimationFrame(f)})();
+document.querySelectorAll('[data-c]').forEach(function(el){
+ el.addEventListener('pointerenter',function(){ac(el.dataset.c)});
+ el.addEventListener('focusin',function(){ac(el.dataset.c)});
+});
+['words','cards'].forEach(function(id){document.getElementById(id).addEventListener('pointerleave',function(){ac(base)})});
+document.querySelectorAll('.card').forEach(function(c){c.addEventListener('pointermove',function(e){var r=c.getBoundingClientRect();c.style.setProperty('--mx',e.clientX-r.left+'px');c.style.setProperty('--my',e.clientY-r.top+'px')})});
+if(!reduce)document.querySelectorAll('[data-mag]').forEach(function(b){
+ b.addEventListener('pointermove',function(e){var r=b.getBoundingClientRect();b.style.transform='translate('+(e.clientX-r.left-r.width/2)*.12+'px,'+(e.clientY-r.top-r.height/2)*.25+'px)'});
+ b.addEventListener('pointerleave',function(){b.style.transform=''});
+});
+var roll=document.getElementById('roll'),col=document.getElementById('col'),ws=col.children,wi=0,vis=false;
+new IntersectionObserver(function(e){vis=e[0].isIntersecting;if(!vis)ac(base)}).observe(roll);
+function show(i){var w=ws[i];roll.style.width=w.getBoundingClientRect().width+'px';col.style.transform='translateY(-'+i*1.08+'em)';roll.style.setProperty('--wc',w.dataset.c);if(vis)ac(w.dataset.c)}
+(document.fonts?document.fonts.ready:Promise.resolve()).then(function(){
+ Array.prototype.forEach.call(ws,function(w){w.style.display='inline-block'});
+ var wd=Array.prototype.map.call(ws,function(w){return w.getBoundingClientRect().width});
+ Array.prototype.forEach.call(ws,function(w){w.style.display=''});
+ ws.widths=wd;show=function(i){roll.style.width=wd[i]+'px';col.style.transform='translateY(-'+i*1.08+'em)';roll.style.setProperty('--wc',ws[i].dataset.c);if(vis)ac(ws[i].dataset.c)};
+ show(0);if(!reduce)setInterval(function(){wi=(wi+1)%ws.length;show(wi)},2300);
+});
+var rec=document.getElementById('rec'),t=0;setInterval(function(){t++;var p=function(n){return String(n).padStart(2,'0')};rec.textContent='REC '+p(Math.floor(t/3600))+':'+p(Math.floor(t/60)%60)+':'+p(t%60)},1000);
+})();
+</script>
+</body>
+</html>
